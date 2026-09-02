@@ -1,0 +1,48 @@
+{
+    "reacteurs": [
+        {
+            "id": 1,
+            "nom": "Réacteur basique",
+            "niveau_requis": 1,
+            "materiaux_requis": [
+                { "id_metal": 1, "nom": "Acier", "quantite": 50 },
+                { "id_metal": 2, "nom": "Aluminium", "quantite": 20 }
+        ],
+        "poussee": 100
+        },
+        {
+        "id": 2,
+        "nom": "Réacteur en titane",
+        "niveau_requis": 5,
+        "materiaux_requis": [
+            { "id_metal": 5, "nom": "Titane", "quantite": 30 },
+            { "id_metal": 4, "nom": "Cuivre", "quantite": 40 }
+        ],
+        "poussee": 350
+        }
+    ],
+    "réservoirs": [
+    {
+      "id": 1,
+      "nom": "Réservoir standard",
+      "niveau_requis": 1,
+      "materiaux_requis": [
+        { "id_metal": 2, "nom": "Aluminium", "quantite": 30 },
+        { "id_metal": 3, "nom": "Zinc", "quantite": 15 }
+      ],
+      "capacitee": 50
+    }
+  ],
+    "nez": [
+        {
+        "id": 1,
+        "nom": "Nez profilé",
+        "niveau_requis": 1,
+        "materiaux_requis": [
+            { "id_metal": 1, "nom": "Acier", "quantite": 20 },
+            { "id_metal": 2, "nom": "Aluminium", "quantite": 10 }
+        ],
+        "aerodynamisme": 30
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+La Routine Git pour Votre Projet de Jeu
+
+Créer une branche au début de sa session :
+
+git checkout dev (pour aller sur la branche commune)
+
+git pull (pour récupérer le travail à jour de ton pote)
+
+git checkout -b feature/nom-de-ta-fonctionnalite (pour créer ta propre bulle de travail)
+
+Travailler et sauvegarder localement :
+
+Faire tes modifications dans VS Code et les tester.
+
+git add . (pour préparer tous les fichiers modifiés)
+
+git commit -m "Description courte de ce que tu as fait" (pour enregistrer une étape propre sur ton PC)
+
+Envoyer son travail sur GitHub :
+
+git push -u origin feature/nom-de-ta-fonctionnalite (pour envoyer ta branche sur GitHub à la fin de ta session)
+
+Aller sur le site de GitHub pour créer une Pull Request vers la branche dev afin que ton coéquipier puisse fusionner ton code.

@@ -1,0 +1,10 @@
+enlever ''' autour de while true:
+
+Pierre de téléportation pour aller à base (fusée)
+Besoin de recharger batterie (portable) utilisée par Pierre téléportation et outils électriques
+Besoin de mettre carburant dans fusée pour se déplacer
+Chaque planète a des chunks qui chargent au fur et à mesure avec les minerais
+Au début du jeu un png viens nous voir pour nous donner la pierre et nous expliquer le jeu
+
+
+
