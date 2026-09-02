@@ -4,6 +4,7 @@ perso_x = 0
 perso_y = 0
 
 level = 1
+minerais = []
 planete_actuelle = "Terre"
 
 def mettre_a_jour_personnage(ecran):

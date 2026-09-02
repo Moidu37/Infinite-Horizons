@@ -6,6 +6,7 @@ import os
 import json
 import time
 
+import ui
 import personnage
 import boutique
 import craft

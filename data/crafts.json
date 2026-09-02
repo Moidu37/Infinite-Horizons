@@ -21,7 +21,7 @@
         "poussee": 350
         }
     ],
-    "réservoirs": [
+    "reservoirs": [
     {
       "id": 1,
       "nom": "Réservoir standard",
