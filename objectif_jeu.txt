@@ -1,0 +1,8 @@
+Jeu Infinite Horizons
+
+Personnage sur Terre et il récupère des matériaux pour construire et alimenter une fusée pour voyager sur d'autres planètes de + en + loin avec des minerais de + en + rares qu'il peut utiliser ou vendre
+
+
+
+
+Planètes générés avec une seed

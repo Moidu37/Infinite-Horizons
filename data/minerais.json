@@ -1,0 +1,232 @@
+[
+{
+"id": 1,
+"prix": 1.0,
+"nom": "Acier"
+},
+{
+"id": 2,
+"prix": 2.5,
+"nom": "Aluminium"
+},
+{
+"id": 3,
+"prix": 4.0,
+"nom": "Zinc"
+},
+{
+"id": 4,
+"prix": 6.0,
+"nom": "Cuivre"
+},
+{
+"id": 5,
+"prix": 8.5,
+"nom": "Titane"
+},
+{
+"id": 6,
+"prix": 11.5,
+"nom": "Argent"
+},
+{
+"id": 7,
+"prix": 15.0,
+"nom": "Or"
+},
+{
+"id": 8,
+"prix": 19.0,
+"nom": "Platine"
+},
+{
+"id": 9,
+"prix": 24.0,
+"nom": "Bronze"
+},
+{
+"id": 10,
+"prix": 30.0,
+"nom": "Laiton"
+},
+{
+"id": 11,
+"prix": 45.0,
+"nom": "Plomb"
+},
+{
+"id": 12,
+"prix": 64.0,
+"nom": "Chrome"
+},
+{
+"id": 13,
+"prix": 75.0,
+"nom": "Cobalt"
+},
+{
+"id": 14,
+"prix": 87.0,
+"nom": "Fonte"
+},
+{
+"id": 15,
+"prix": 115.0,
+"nom": "Tungstène"
+},
+{
+"id": 16,
+"prix": 148.0,
+"nom": "Carbone"
+},
+{
+"id": 17,
+"prix": 166.0,
+"nom": "Métal Céleste"
+},
+{
+"id": 18,
+"prix": 185.0,
+"nom": "Acier Stellaire"
+},
+{
+"id": 19,
+"prix": 205.0,
+"nom": "Adamantium"
+},
+{
+"id": 20,
+"prix": 227.0,
+"nom": "Mithril"
+},
+{
+"id": 21,
+"prix": 250.0,
+"nom": "Orichalque"
+},
+{
+"id": 22,
+"prix": 280.0,
+"nom": "Vibranium"
+},
+{
+"id": 23,
+"prix": 315.0,
+"nom": "Naquadah"
+},
+{
+"id": 24,
+"prix": 355.0,
+"nom": "Dilithium"
+},
+{
+"id": 25,
+"prix": 400.0,
+"nom": "Kryptonite"
+},
+{
+"id": 26,
+"prix": 450.0,
+"nom": "Unobtanium"
+},
+{
+"id": 27,
+"prix": 510.0,
+"nom": "Éthérium"
+},
+{
+"id": 28,
+"prix": 580.0,
+"nom": "Voidmétal"
+},
+{
+"id": 29,
+"prix": 660.0,
+"nom": "Uru"
+},
+{
+"id": 30,
+"prix": 750.0,
+"nom": "Beskar"
+},
+{
+"id": 31,
+"prix": 850.0,
+"nom": "Sombracier"
+},
+{
+"id": 32,
+"prix": 960.0,
+"nom": "Aethérium Noir"
+},
+{
+"id": 33,
+"prix": 1080.0,
+"nom": "Solarite"
+},
+{
+"id": 34,
+"prix": 1210.0,
+"nom": "Astralium"
+},
+{
+"id": 35,
+"prix": 1350.0,
+"nom": "Netherite"
+},
+{
+"id": 36,
+"prix": 1500.0,
+"nom": "Chronacier"
+},
+{
+"id": 37,
+"prix": 1700.0,
+"nom": "Magmite"
+},
+{
+"id": 38,
+"prix": 1950.0,
+"nom": "Starmetal"
+},
+{
+"id": 39,
+"prix": 2250.0,
+"nom": "Eclipseum"
+},
+{
+"id": 40,
+"prix": 2600.0,
+"nom": "Lunacier"
+},
+{
+"id": 41,
+"prix": 3000.0,
+"nom": "Quasarite"
+},
+{
+"id": 42,
+"prix": 3500.0,
+"nom": "Pulsarite"
+},
+{
+"id": 43,
+"prix": 4100.0,
+"nom": "Gravitonium"
+},
+{
+"id": 44,
+"prix": 4800.0,
+"nom": "Divinium"
+},
+{
+"id": 45,
+"prix": 5600.0,
+"nom": "Omnimétal"
+},
+{
+"id": 46,
+"prix": 6500.0,
+"nom": "Ætherstéel"
+}
+]
