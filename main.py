@@ -11,6 +11,17 @@ import personnage
 import boutique
 import craft
 
+pygame.init()
+
+LARGEUR_BASE, HAUTEUR_BASE = 1280, 720
+
+#Affichage de la fenetre et du titre
+pygame.display.set_caption('Infinite Horizons')
+window_surface = pygame.display.set_mode((1280, 720))
+
+image_originale = pygame.image.load("./assets/sol.png").convert()
+image_fond = pygame.transform.scale(image_originale, (LARGEUR_BASE, HAUTEUR_BASE))
+
 FICHIER_MINERAI = "./data/minerais.json"
 
 argent = 0
@@ -197,3 +208,22 @@ while jeu_en_cours:
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_e:
                 pass"""
+
+
+
+
+#Boucle infinie pour l'affichage
+while is_running:
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            is_running = False
+
+    #Affichage des images
+    window_surface.blit(image_fond, (0, 0))
+    window_surface.blit(personnage.initialiser_personnage(), (LARGEUR_BASE/2, HAUTEUR_BASE/2))
+    window_surface.blit(ui.text_pieces, (1150, 30))
+    ui.afficher_menu(window_surface)
+    window_surface.blit(ui.logo_piece, (1100,17))
+
+    pygame.display.update()

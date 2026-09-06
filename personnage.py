@@ -1,11 +1,49 @@
 import pygame
+import math
 
 perso_x = 0
 perso_y = 0
 
-level = 1
+VITESSE_BASE = 5
+
+level = 6
 minerais = []
 planete_actuelle = "Terre"
+
+
+def initialiser_personnage():
+    """À appeler UNIQUEMENT après pygame.display.set_mode()"""
+    global frames_droite, frames_gauche, personnage_final, hitbox_personnage
+
+    fichiers_marche = [
+        "./assets/perso2.png",
+        "./assets/perso3.png"
+    ]
+    
+    # 1. Charger et redimensionner directement à la taille voulue (46, 78)
+    frames_droite = []
+    for fichier in fichiers_marche:
+        img = pygame.image.load(fichier).convert_alpha()
+        # Option A : taille fixe (120, 220)
+        img_redim = pygame.transform.smoothscale(img, (90, 160))
+        
+        # Option B : si tu veux diviser par 2 la taille d'origine :
+        # nouvelle_taille = (img.get_width() // 2, img.get_height() // 2)
+        # img_redim = pygame.transform.smoothscale(img, nouvelle_taille)
+        
+        frames_droite.append(img_redim)
+
+    # 2. Créer les frames vers la gauche par miroir
+    frames_gauche = [
+        pygame.transform.flip(frame, True, False)
+        for frame in frames_droite
+    ]
+
+    # 3. État initial
+    personnage_final = frames_droite[0]
+    hitbox_personnage = personnage_final.get_rect()
+
+    return personnage_final
 
 def mettre_a_jour_personnage(ecran):
     global perso_x, perso_y, index_frame, compteur_animation, regarde_a_gauche, personnage_final
