@@ -1,23 +1,22 @@
 import pygame
-
-
-pygame.init()
-
-pygame.display.set_caption('Infinite Horizons')
-window_surface = pygame.display.set_mode((1280, 720))
-
-background = pygame.Surface((1280, 720))
-background.fill(pygame.Color('#000000'))
+import personnage
 
 is_running = True
 
-while is_running:
+background = pygame.Surface((1280, 720))
 
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            is_running = False
+# Charger les images
+logo_piece = pygame.image.load("./assets/piece.png").convert_alpha()
 
-    window_surface.blit(background, (0, 0))
+# Redimensionner l'image
+logo_piece = pygame.transform.smoothscale(logo_piece, (40, 40))
 
 
-    pygame.display.update()
+
+#Affichage de l'écriture
+font=pygame.font.Font(None, 24)
+text_pieces = font.render("Pièce(s)",1,(255, 255, 255))
+
+
+def afficher_menu(window_surface):
+    pygame.draw.rect(window_surface, (107, 3, 128), (20, 35, 70, 650), width=0, border_radius=7)
